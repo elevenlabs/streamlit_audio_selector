@@ -1,0 +1,1 @@
+recursive-include streamlit_audio_selector/frontend/build *

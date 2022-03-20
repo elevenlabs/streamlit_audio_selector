@@ -1,0 +1,52 @@
+.actor-grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.actor-grid figcaption {
+    text-align: center;
+}
+
+.actor-grid img {
+    width: 10em;
+}
+
+.actor-grid .actor {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7%;
+    border-width: 5px
+}
+
+.actor-grid .actor img {
+    border-radius: 4%;
+//aspect-ratio: 1;
+    /*border-width: 5px;*/
+    /*border-style: solid;*/
+    /*border-color: gray;*/
+}
+.actor-grid .actor--selected {
+    border-color: navy;
+    color: dodgerblue;
+}
+
+.vcdemo {
+    display: inline-block;
+    color: lightblue;
+}
+
+.player-ui .player-button {
+    color: violet;
+    font-size: 3em;
+}
+
+.player-ui .player-time {
+    width: 6em;
+    display: inline-block;
+}
+
+.player-ui .waveform-slider {
+    height: 100px;
+    text-align: center;
+}
